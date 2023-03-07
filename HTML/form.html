@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 태그 종류 연습</title>
+</head>
+<body>
+    <form>
+        <label for="textInput">ID</label>
+        <input type="text" id="textInput"/>
+        <button>click</button>
+        <br/>
+        <label for="PW" >PW</label>
+        <input type="password" id="PW" />
+        <br />
+        <!--
+            type = "email": 이메일 형식이 맞는지 검사
+        -->
+        <input type="email" placeholder="example@gmail.com" />
+        <br />
+        <textarea cols="100" row="10" placeholder="내용을 입력하세요"></textarea>
+        
+        <input type = "color"/>
+        <input type = "range"/>
+        <input type = "file" />
+        <input type = "number"/>
+        <input type = "date"/>
+        <input type = "datetime-local"/>
+        <hr/>
+        <br/>
+        <h5>다음중 input type이 <strong>아닌것을</strong>모두 고르시오</h5>
+        <input type="checkbox" name="inp"/> img
+        <input type = "checkbox" name="inp"/> text
+        <input type = "checkbox" name="inp"/> color
+        <input type = "checkbox" name="inp" checked/> coffe
+        <input type = "checkbox" name="inp"/> radio
+        <br/>
+
+        <h5>다음중 img타입의 속성인 것은?</h5>
+        <input type="radio" name="inr" id="title" disabled /> <label for="title">title</label>
+        <input type = "radio" name="inr" id="alt"/> <label for="alt">alt</label>
+        <input type = "radio" name="inr" id="mouse"/> <label for="mouse">mouse</label>
+        <input type = "radio" name="inr" id="value"/> <label for="value">value</label>
+        <input type = "radio" name="inr" id="href"/>  <label for="href">href</label>
+        <br/>
+
+        <input type="button" value="버튼" />
+        <input type="submit" value="제출" />
+        <button style="color:blue">버튼</button>
+        <hr/>
+
+        <select name="flower">
+            <optgroup label="RedFlower">
+                <option>장미</option>
+                <option>동백</option>
+                <option>카네이션</option>
+            </optgroup>
+            <optgroup label="WhiteFlower">
+                <option>목련</option>
+                <option>벚꽃</option>
+            </optgroup>
+        </select>
+
+
+    </form>
+</body>
+</html>

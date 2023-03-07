@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h3>설문조사</h3>
+        <br/>
+        <label for="textInput">이름</label>
+        <input type="text" id="textInput"/>
+        <br/>
+        <label for="emailinput">이메일</label>
+        <input type="email" id="emailinput" placeholder="love@gmail.com" />
+        <br/>
+        <h3>나이</h3>
+        <input type="radio" name="inr" id="Y10" checked/> <label for="Y10">10대</label>
+        <input type = "radio" name="inr" id="Y20"/> <label for="Y20">20대</label>
+        <input type = "radio" name="inr" id="Y30"/> <label for="Y30">30대</label>
+        <input type = "radio" name="inr" id="Y40"/> <label for="Y40">40대</label>
+        <input type = "radio" name="inr" id="Y50"/>  <label for="Y50">50대</label>
+        <input type = "radio" name="inr" id="Y60"/>  <label for="Y60">60대 이상</label>
+        <br/>
+        <h3>원하는 강의(복수응답 가능합니다.)</h3>
+        <input type = "checkbox" name="inp" id = "ht" checked/> <label for="ht">html</label>
+        <input type = "checkbox" name="inp" id = "jv"/> <label for="jv">javascript</label>
+        <input type = "checkbox" name="inp" id = "cs"/> <label for="cs">css</label>
+        <br/>
+        <br/>
+        <textarea cols="100" rows="10" placeholder="하고 싶은 말을 써주세요 :)"></textarea>
+    </form>
+</body>
+</html>
